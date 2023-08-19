@@ -38,6 +38,3 @@ function searchRandomVideo(query) {
     })
     .catch(error => console.error("Error fetching data:", error));
 }
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1196099105534369"
-     crossorigin="anonymous"></script>

@@ -24,7 +24,7 @@ randomizeButton.addEventListener("click", () => {
 });
 
 function searchRandomVideo(query) {
-  const apiKey = "AIzaSyCR4uTDEeRmU2PR71Y-Ty8AFOAaiOJMTBE";
+  const apiKey = "AIzaSyC7fxxtdfTL62IwJUC3y9K_gMiN4Nv9tSc";
   const apiUrl = `https://www.googleapis.com/youtube/v3/search?key=${apiKey}&q=${query}&type=video&maxResults=10`;
 
   fetch(apiUrl)
